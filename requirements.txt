@@ -1,0 +1,3 @@
+python-kraken-sdk
+websocket-client
+kafka-python

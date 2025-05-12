@@ -1,0 +1,33 @@
+2025-04-30 22:36:57,605 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2025-04-30 22:36:57,607 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9092)]>: Broker version identified as 2.6
+2025-04-30 22:36:57,607 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2025-04-30 22:36:57,608 - __main__ - INFO - Connecting to WebSocket: wss://ws.kraken.com/v2
+2025-04-30 22:36:58,786 - websocket - INFO - Websocket connected
+2025-04-30 22:36:58,787 - websocket - ERROR - error from callback <function on_open at 0x7fb18b105900>: name 'true' is not defined
+2025-04-30 22:36:58,787 - __main__ - ERROR - WebSocket error: name 'true' is not defined
+2025-04-30 22:38:18,811 - __main__ - ERROR - WebSocket error: 
+2025-04-30 22:38:18,837 - __main__ - INFO - WebSocket closed: None, None
+2025-04-30 22:38:18,837 - __main__ - INFO - Attempting to reconnect...
+2025-04-30 22:38:18,837 - websocket - INFO - tearing down on exception 
+2025-04-30 22:38:18,837 - __main__ - INFO - Reconnecting in 5 seconds...
+2025-04-30 22:38:22,001 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2025-04-30 22:38:22,004 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9092)]>: Broker version identified as 2.6
+2025-04-30 22:38:22,004 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2025-04-30 22:38:22,005 - __main__ - INFO - Connecting to WebSocket: wss://ws.kraken.com/v2
+2025-04-30 22:38:23,259 - websocket - INFO - Websocket connected
+2025-04-30 22:38:23,260 - websocket - ERROR - error from callback <function on_open at 0x7f491cf21990>: name 'true' is not defined
+2025-04-30 22:38:23,260 - __main__ - ERROR - WebSocket error: name 'true' is not defined
+2025-04-30 22:38:56,500 - __main__ - ERROR - WebSocket error: 
+2025-04-30 22:38:56,519 - __main__ - INFO - WebSocket closed: None, None
+2025-04-30 22:38:56,520 - __main__ - INFO - Attempting to reconnect...
+2025-04-30 22:38:56,520 - websocket - INFO - tearing down on exception 
+2025-04-30 22:38:56,520 - __main__ - INFO - Reconnecting in 5 seconds...
+2025-04-30 22:39:01,526 - __main__ - INFO - Connecting to WebSocket: wss://ws.kraken.com/v2
+2025-04-30 22:39:02,662 - websocket - INFO - Websocket connected
+2025-04-30 22:39:02,663 - websocket - ERROR - error from callback <function on_open at 0x7f491cf21990>: name 'true' is not defined
+2025-04-30 22:39:02,663 - __main__ - ERROR - WebSocket error: name 'true' is not defined
+2025-04-30 22:41:46,008 - __main__ - ERROR - WebSocket error: 
+2025-04-30 22:41:46,026 - __main__ - INFO - WebSocket closed: None, None
+2025-04-30 22:41:46,026 - __main__ - INFO - Attempting to reconnect...
+2025-04-30 22:41:46,027 - websocket - INFO - tearing down on exception 
+2025-04-30 22:41:46,027 - __main__ - INFO - Reconnecting in 10 seconds...
