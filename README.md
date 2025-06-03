@@ -2,6 +2,20 @@
 
 ## Description
 
+Kraken real-time orderbook and OHLC data producer using Confluent Kafka.
+
+This project is a Python-based producer that streams real-time orderbook and OHLC (Open, High, Low, Close) data from the Kraken exchange using Confluent Kafka. It utilizes the `confluent-kafka` library to produce messages to Kafka topics, which can be consumed by other applications or services for further processing or analysis.
+It includes a Docker Compose setup to run Confluent Kafka locally, making it easy to test and develop without needing a full Kafka cluster.
+
+## Features
+- **Real-time Data**: Streams real-time orderbook and OHLC data from the Kraken exchange.
+- **Confluent Kafka**: Uses Confluent Kafka for message production, ensuring high throughput and reliability.
+- **Docker Compose**: Provides a simple way to set up and run Confluent Kafka locally.
+- **Python**: Written in Python, making it easy to extend and integrate with other Python applications.
+- **CLI**: Provides a command-line interface for easy interaction and testing.
+
+![alt text](cli.png "CLI")
+
 ## Install
 ```bash
 python3 -m venv env
